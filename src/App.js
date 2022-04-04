@@ -1,6 +1,5 @@
 import './App.css';
 import TextForm from './Components/TextForm';
-import About from './Components/About';
 import Alert from './Components/Alert';
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
     <div className="container" >
       <TextForm Desc = "Hi There"/>
     </div>
-    < About />
+    
     </>
   );
 }
