@@ -21,10 +21,9 @@ export default function TextForm(props) {
             <div className="mb-3">
                 <textarea className="form-control" onChange= {handleOnChange} value = {text} id="My Form" rows="10"></textarea>
             </div>  
-            <button className="btn btn-primary" onClick = {ChangeUpClick}> Upper </button>
-            <button className="btn btn-primary mx-2" onClick = {ChangeLowClick}> Upper </button>
-            {/* <a className="btn btn-primary" onClick = {ChangeUpClick} role="button">Upper Case</a>
-            <a className="btn btn-primary mx-2" onClick = {ChangeLowClick} role="button">Lower Case</a> */}
+            <button className="btn btn-primary" onClick = {ChangeUpClick}> UpperCase </button>
+            <button className="btn btn-primary mx-2" onClick = {ChangeLowClick}> LowerCase </button>
+           
             <div className="container">
                 <h1>Text Summary</h1>
                 <p>{text.split(" ").length} words and {text.length} Character</p>
